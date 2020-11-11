@@ -1,0 +1,16 @@
+.svgImage {
+    width: 50px;
+    height: 50px;
+}
+
+#textTitle {
+    animation-name: titleAnimation;
+    animation-duration: 1s;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+@keyframes titleAnimation {
+    0%   {font-size: 0px; font-weight:0;}
+    100% {font-size: 25px; font-weight: 800;}
+}
